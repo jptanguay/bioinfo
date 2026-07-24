@@ -8,6 +8,10 @@ Pendant des décennies, cette découverte reste confinée aux livres de mathéma
 
 Ce chapitre explore le fonctionnement de cet algorithme, la manière dont les ordinateurs résolvent ce puzzle à l'aide de parcours de graphes, et comment cette même structure mathématique aide aujourd'hui à concevoir des superordinateurs ou à guider des robots.
 
+---
+
+> **Avertissement**: ce texte a été rédigé en partie avec l'aide de LLMs, en particulier Gemini et Mistal.
+
 ## 1. Le défi du séquençage et de l'assemblage d'ADN
 
 ### 1.1. Le problème biologique : les fragments de lecture (*reads*)
