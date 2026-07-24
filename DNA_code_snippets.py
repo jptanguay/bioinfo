@@ -82,3 +82,29 @@ def permu(n):
         s = " ".join(str(item) for item in p)
         print(s)
         
+        
+def enumkmerlex(s, n):
+    """
+        s = "A C G T" (max len = 10)
+        n <= 10
+        
+        Ex.: 
+        for s in enumkmerlex("A B C D E F", 3):
+            print(s)
+            
+        result:
+        AAA
+        AAB
+        AAC
+        ...
+        FFD
+        FFE
+        FFF        
+        
+        produit cartésien x n, en list, sorted, puis on regroupe, et affiche
+    """
+    l = s.split()
+    r = [ "".join(item) for (item) in sorted(list(itertools.product(l, repeat=n)))]
+    return r
+    
+    
